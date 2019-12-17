@@ -1,5 +1,18 @@
-.nav-title {
+nav {
     background-color: firebrick;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width:100%;
+    clear:none;
+    height: 80px;
+    z-index: 2;
+}
+
+section {
+    background-color: firebrick;
+    position: sticky;
+    top: 0;
 }
 
 a:link {
@@ -19,4 +32,92 @@ a:hover {
 
 a:active {
     text-decoration: none;
+}
+
+.collapsible {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    background-color: firebrick;
+    color: white;
+}
+
+.content {
+    max-height: 0;
+    padding: 0 18px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.spacer {
+    width: 40%;
+    float: left;
+    align-content: center;
+    background-color: firebrick;
+    position: sticky;
+    top: 0;
+}
+
+.buttons {
+    width: 20%;
+    float: left;
+    align-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.box {
+    position:relative;
+    top:80px;
+    z-index:1;
+}
+.myInfo {
+    float:left;
+    width:40%;
+    position:sticky;
+}
+
+.tabs {
+    float:left;
+    width:60%;
+}
+
+.projects {
+    background-color:cornflowerblue;
+}
+
+.jobs {
+    background-color:aquamarine;
+}
+
+.aboutMe {
+    background-color:darkcyan;
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .myInfo {
+        width: 100%;
+        padding: 0;
+        position:inherit;
+    }
+
+    .tabs {
+        width: 100%;
+    }
+
+    .spacer {
+        width: 0%;
+        position: sticky;
+        top: 0;
+    }
+
+    .buttons {
+        width: 33.333%;
+        position: sticky;
+        top: 0;
+    }
 }

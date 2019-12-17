@@ -1,15 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="icon" type="image/png" href="static/img/temp.png" />
+    <link rel="icon" type="image/png" href="static/img/favicon.png" />
     <link rel="stylesheet" href="static/css/main.css" />
     <title>sad static website :(</title>
 </head>
 <body>
-    <div class="nav-title">
-        <a href="index.html" style="text-decoration: none;">Theodore Davis</a>
+    <nav>
+        <a href="index.html">Theodore Davis</a>
+        <section>
+            <div class="spacer"><p> </p></div>
+            <div class="buttons"><button class="collapsible">projects</button></div>
+            <div class="buttons"><button class="collapsible">jobs</button></div>
+            <div class="buttons"><button class="collapsible">about me</button></div>
+        </section>
+    </nav>
+    <div class="box">
+        <div class="myInfo">
+            <div style="float:left;width:100%;">
+                <img src="static/img/Theodore.jpg" alt="Selfie" style="max-width:100%;" />
+            </div>
+            <div style="float:left;">
+                <p id="test">this is a test</p>
+            </div>
+        </div>
+        <!-- collapsable blocks -->
+        <div class="tabs">
+            <div class="content">
+                <div class="projects">
+                    <p>tab0</p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="jobs">
+                    <p>tab1</p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="aboutMe">
+                    <p>tab2</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <img src="static/img/Theodore.jpg" alt="Selfie" style="max-height:1200px;max-width:400px" />
-    <h1>Caden's Website</h1>
+
+
+    <footer>
+    </footer>
+    <script>
+        var con = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < con.length; i++) {
+            con[i].setAttribute("index", i);
+            con[i].addEventListener("click", function () {
+                document.getElementById("test").innerHTML = "content" + this.getAttribute('index');
+                this.classList.toggle("active");
+                var content = document.getElementsByClassName("content");
+                //close any open tabs that aren't this one!
+                var i;
+                for (i = 0; i < content.length; i++) {
+                    if (this.getAttribute('index') != i) {
+                        if (content[i].style.maxHeight) {
+                            content[i].style.maxHeight = null;
+                        }
+                    }
+                }
+                if (!content[this.getAttribute('index')].style.maxHeight) {
+                    content[this.getAttribute('index')].style.maxHeight = content[this.getAttribute('index')].scrollHeight + "px";
+                }
+            });
+        }
+        var content = document.getElementsByClassName("content");
+        content[2].style.maxHeight = content[2].scrollHeight + "px";
+
+    </script>
 </body>
 </html>
