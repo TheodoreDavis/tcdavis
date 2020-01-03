@@ -1,19 +1,5 @@
-nav {
-    background-color: firebrick;
-    position: fixed;
-    top: 0;
-    overflow: hidden;
-    width:100%;
-    clear:none;
-    height: 80px;
-    z-index: 2;
-    padding: 10px;
-}
-
 section {
     background-color: firebrick;
-    position: sticky;
-    top: 0;
 }
 
 a:link {
@@ -50,45 +36,36 @@ a:active {
     max-height: 0;
     padding: 0 18px;
     overflow: hidden;
-    transition: max-height 0.3s ease-out;
-}
-
-.spacer {
-    width: 40%;
-    float: left;
-    align-content: center;
-    background-color: firebrick;
-    position: sticky;
-    top: 0;
+    transition: max-height 0.4s ease-out;
+    clear: both;
 }
 
 .buttons {
-    width: 20%;
+    width: 33.33%;
     float: left;
     align-content: center;
-    position: sticky;
-    top: 0;
 }
 
 .box {
     position: relative;
-    top: 80px;
+    top: 0px;
     z-index: 1;
-    background-color: white;
     padding-bottom: 80px;
 
 }
 .myInfo {
     float: left;
-    width: 33.33%;
+    width: 32%;
     box-shadow: 5px 5px 5px lightgray, -5px -5px 5px lightgray, -5px 5px 5px lightgray, 5px -5px 5px lightgray;
     height: 100%;
+    padding: 1%;
 }
 
 .tabs {
     float:left;
-    width:66.67%;
+    width:64%;
     height:100%;
+    padding: 1%;
 }
 
 .projects {
@@ -114,12 +91,14 @@ body {
 }
 
 footer {
+    display: block;
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 80px;
+    height: 70px;
     text-align: center;
     background-color: firebrick;
+    z-index: 2;
 }
 
 .fa {
@@ -156,18 +135,6 @@ footer {
     .tabs {
         width: 100%;
     }
-
-    .spacer {
-        width: 0%;
-        position: sticky;
-        top: 0;
-    }
-
-    .buttons {
-        width: 33.333%;
-        position: sticky;
-        top: 0;
-    }
 }
 @media only screen and (max-width:500px) {
     /* For mobile phones: */
@@ -178,17 +145,5 @@ footer {
 
     .tabs {
         width: 100%;
-    }
-
-    .spacer {
-        width: 0%;
-        position: sticky;
-        top: 0;
-    }
-
-    .buttons {
-        width: 33.333%;
-        position: sticky;
-        top: 0;
     }
 }
