@@ -1,68 +1,204 @@
-<!DOCTYPE html>
-<!--
-    Author: Theodore Davis
-     Last edit: 1/2/2020
-
-     This website for my personal portfolio as well as class requirements for graduation
--->
+﻿<!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" href="static/css/main.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Theodore Davis</title>
-</head>
-<body style="background-color:azure;">
-    <div class="page">
-        <div class="box">
-            <!--left comlumn -->
-            <div class="myInfo">
-                <div style="float:left;width:100%;height:100%;">
-                    <img src="static/img/Theodore.jpg" alt="Selfie" style="max-width:100%;max-height:1000px" />
-                </div>
-                <div class="myInfo-bottom">
-                    <ul>
-                        <li>Computer Engineer</li>
-                        <li>Ames, Ia</li>
-                        <li>tcdavis@iastate.edu</li>
-                        <li>(319)217-2550</li>
-                    </ul>
-                    <hr>
-                </div>
+<title>Theodore Davis</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="static/css/stylesheet.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    html, body, h1, h2, h3, h4, h5, h6 {
+        font-family: "Roboto", sans-serif
+    }
+</style>
+<body class="td-light-grey">
+
+    <!-- Page Container -->
+    <div class="td-content td-margin-top" style="max-width:1400px;">
+
+        <!-- The Grid -->
+        <div class="td-row-padding">
+
+            <!-- Left Column -->
+            <div class="td-third">
+
+                <div class="td-white td-text-grey td-card-4">
+                    <div class="td-display-container">
+                        <img src="/tdimages/avatar_hat.jpg" style="width:100%" alt="Avatar">
+                        <div class="td-display-bottomleft td-container td-text-black">
+                            <h2>Theodore Davis</h2>
+                        </div>
+                    </div>
+                    <div class="td-container">
+                        <p><i class="fa fa-briefcase fa-fw td-margin-right td-large td-text-teal"></i>Designer</p>
+                        <p><i class="fa fa-home fa-fw td-margin-right td-large td-text-teal"></i>Ames, IA</p>
+                        <p><i class="fa fa-envelope fa-fw td-margin-right td-large td-text-teal"></i>tcdavis@iastate.edu</p>
+                        <p><i class="fa fa-phone fa-fw td-margin-right td-large td-text-teal"></i>(319)217-2550</p>
+                        <hr>
+
+                        <p class="td-large"><b><i class="fa fa-asterisk fa-fw td-margin-right td-text-teal"></i>Skills</b></p>
+                        <p>Adobe Photoshop</p>
+                        <div class="td-light-grey td-round-xlarge td-small">
+                            <div class="td-container td-center td-round-xlarge td-teal" style="width:90%">90%</div>
+                        </div>
+                        <p>Photography</p>
+                        <div class="td-light-grey td-round-xlarge td-small">
+                            <div class="td-container td-center td-round-xlarge td-teal" style="width:80%">
+                                <div class="td-center td-text-white">80%</div>
+                            </div>
+                        </div>
+                        <p>Illustrator</p>
+                        <div class="td-light-grey td-round-xlarge td-small">
+                            <div class="td-container td-center td-round-xlarge td-teal" style="width:75%">75%</div>
+                        </div>
+                        <p>Media</p>
+                        <div class="td-light-grey td-round-xlarge td-small">
+                            <div class="td-container td-center td-round-xlarge td-teal" style="width:50%">50%</div>
+                        </div>
+                        <br>
+
+                        <p class="td-large td-text-theme"><b><i class="fa fa-globe fa-fw td-margin-right td-text-teal"></i>Languages</b></p>
+                        <p>English</p>
+                        <div class="td-light-grey td-round-xlarge">
+                            <div class="td-round-xlarge td-teal" style="height:24px;width:100%"></div>
+                        </div>
+                        <p>Spanish</p>
+                        <div class="td-light-grey td-round-xlarge">
+                            <div class="td-round-xlarge td-teal" style="height:24px;width:55%"></div>
+                        </div>
+                        <p>German</p>
+                        <div class="td-light-grey td-round-xlarge">
+                            <div class="td-round-xlarge td-teal" style="height:24px;width:25%"></div>
+                        </div>
+                        <br>
+                    </div>
+                </div><br>
+
+                <!-- End Left Column -->
             </div>
-            <!-- right column -->
-            <div class="tabs">
-                <section>
-                    <div class="buttons"><button class="collapsible">projects</button></div>
-                    <div class="buttons"><button class="collapsible">jobs</button></div>
-                    <div class="buttons"><button class="collapsible">about me</button></div>
+
+            <!-- Right Column -->
+            <div class="td-twothird">
+                <section class="td-card td-tab-section td-teal">
+                    <div class="td-tab td-teal collapse"><button class="collapsible td-hover-opacity td-large td-round">Work Experience</button></div>
+                    <div class="td-tab td-teal collapse"><button class="collapsible td-hover-opacity td-round">Education</button></div>
+                    <div class="td-tab td-teal collapse"><button class="collapsible td-hover-opacity td-round">Projects</button></div>
+                    <div class="td-tab td-teal collapse"><button class="collapsible td-hover-opacity td-round">About Me</button></div>
                 </section>
-                <div class="content">
-                    <div class="projects">
-                        <p style="height:500px;">tab0</p>
+                <div class="td-container td-card td-white td-margin-bottom content">
+                    <h2 class="td-text-grey td-padding-16"><i class="fa fa-suitcase fa-fw td-margin-right td-xxlarge td-text-teal"></i>Work Experience</h2>
+                    <div class="td-container">
+                        <h5 class="td-opacity"><b>Front End Developer / tdschools.com</b></h5>
+                        <h6 class="td-text-teal"><i class="fa fa-calendar fa-fw td-margin-right"></i>Jan 2015 - <span class="td-tag td-teal td-round">Current</span></h6>
+                        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+                        <hr>
+                    </div>
+                    <div class="td-container">
+                        <h5 class="td-opacity"><b>Web Developer / something.com</b></h5>
+                        <h6 class="td-text-teal"><i class="fa fa-calendar fa-fw td-margin-right"></i>Mar 2012 - Dec 2014</h6>
+                        <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+                        <hr>
+                    </div>
+                    <div class="td-container">
+                        <h5 class="td-opacity"><b>Graphic Designer / designsomething.com</b></h5>
+                        <h6 class="td-text-teal"><i class="fa fa-calendar fa-fw td-margin-right"></i>Jun 2010 - Mar 2012</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
                     </div>
                 </div>
+
                 <div class="content">
-                    <div class="jobs">
-                        <p>tab1</p>
+                    <section class="td-card td-tab-section td-teal">
+                        <div class="td-tab td-teal"><button class="collapsible td-hover-opacity td-large td-round">Education</button></div>
+                    </section>
+                    <div class="td-container td-card td-white td-margin-bottom">
+                        <h2 class="td-text-grey td-padding-16"><i class="fa fa-certificate fa-fw td-margin-right td-xxlarge td-text-teal"></i>Education</h2>
+                        <div class="td-container">
+                            <h5 class="td-opacity"><b>tdSchools.com</b></h5>
+                            <h6 class="td-text-teal"><i class="fa fa-calendar fa-fw td-margin-right"></i>Forever</h6>
+                            <p>Web Development! All I need to know in one place</p>
+                            <hr>
+                        </div>
+                        <div class="td-container">
+                            <h5 class="td-opacity"><b>London Business School</b></h5>
+                            <h6 class="td-text-teal"><i class="fa fa-calendar fa-fw td-margin-right"></i>2013 - 2015</h6>
+                            <p>Master Degree</p>
+                            <hr>
+                        </div>
+                        <div class="td-container">
+                            <h5 class="td-opacity"><b>School of Coding</b></h5>
+                            <h6 class="td-text-teal"><i class="fa fa-calendar fa-fw td-margin-right"></i>2010 - 2013</h6>
+                            <p>Bachelor Degree</p><br>
+                        </div>
                     </div>
                 </div>
+
                 <div class="content">
-                    <div class="aboutMe">
-                        <p style="height:500px;">My name is Theodore Davis. I'm a junior in Computer Engineering at ISU. What got me started in programming was a website building competion. I wrote all the code in notepad and the site was really crude but I made it without a template and won 1st place. After this I enjoyed programming as a hobby.<br/>
-                        </p>
+                    <section class="td-card td-tab-section td-teal">
+                        <div class="td-tab td-teal"><button class="collapsible td-hover-opacity td-large td-round">Projects</button></div>
+                    </section>
+                    <div class="td-container td-card td-white td-margin-bottom">
+                        <h2 class="td-text-grey td-padding-16"><i class="fa fa-certificate fa-fw td-margin-right td-xxlarge td-text-teal"></i>Education</h2>
+                        <div class="td-container">
+                            <h5 class="td-opacity"><b>tdSchools.com</b></h5>
+                            <h6 class="td-text-teal"><i class="fa fa-calendar fa-fw td-margin-right"></i>Forever</h6>
+                            <p>Web Development! All I need to know in one place</p>
+                            <hr>
+                        </div>
+                        <div class="td-container">
+                            <h5 class="td-opacity"><b>London Business School</b></h5>
+                            <h6 class="td-text-teal"><i class="fa fa-calendar fa-fw td-margin-right"></i>2013 - 2015</h6>
+                            <p>Master Degree</p>
+                            <hr>
+                        </div>
+                        <div class="td-container">
+                            <h5 class="td-opacity"><b>School of Coding</b></h5>
+                            <h6 class="td-text-teal"><i class="fa fa-calendar fa-fw td-margin-right"></i>2010 - 2013</h6>
+                            <p>Bachelor Degree</p><br>
+                        </div>
                     </div>
                 </div>
+
+                <div class="content">
+                    <section class="td-card td-tab-section td-teal">
+                        <div class="td-tab td-teal"><button class="collapsible td-hover-opacity td-large td-round">About Me</button></div>
+                    </section>
+                    <div class="td-container td-card td-white">
+                        <h2 class="td-text-grey td-padding-16"><i class="fa fa-certificate fa-fw td-margin-right td-xxlarge td-text-teal"></i>Education</h2>
+                        <div class="td-container">
+                            <h5 class="td-opacity"><b>tdSchools.com</b></h5>
+                            <h6 class="td-text-teal"><i class="fa fa-calendar fa-fw td-margin-right"></i>Forever</h6>
+                            <p>Web Development! All I need to know in one place</p>
+                            <hr>
+                        </div>
+                        <div class="td-container">
+                            <h5 class="td-opacity"><b>London Business School</b></h5>
+                            <h6 class="td-text-teal"><i class="fa fa-calendar fa-fw td-margin-right"></i>2013 - 2015</h6>
+                            <p>Master Degree</p>
+                            <hr>
+                        </div>
+                        <div class="td-container">
+                            <h5 class="td-opacity"><b>School of Coding</b></h5>
+                            <h6 class="td-text-teal"><i class="fa fa-calendar fa-fw td-margin-right"></i>2010 - 2013</h6>
+                            <p>Bachelor Degree</p><br>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Right Column -->
             </div>
+
+            <!-- End Grid -->
         </div>
 
-        <footer>
-            <p style="color:white;">Find me on these sites</p>
-            <a href="https://www.facebook.com/theodore.davis.184" target="_blank"><i class="fa fa-facebook-official"></i></a>
-            <a href="https://www.linkedin.com/in/theodore-davis-isu/" target="_blank"><i class="fa fa-linkedin"></i></a>
-            <a href="https://github.com/TheodoreDavis" target="_blank"><i class="fa fa-github"></i></a>
-        </footer>
+        <!-- End Page Container -->
     </div>
-    
+
+    <footer class="td-container td-teal td-center td-margin-top">
+        <p>Find me on social media.</p>
+        <i class="fa fa-facebook-official td-hover-opacity"></i>
+        <i class="fa fa-linkedin td-hover-opacity"></i>
+        <i class="fa fa-github td-hover-opacity"></i>
+    </footer>
+
     <script>
         var con = document.getElementsByClassName("collapsible");
         var i;
@@ -72,22 +208,27 @@
             con[i].addEventListener("click", function () {
                 this.classList.toggle("active");
                 var content = document.getElementsByClassName("content");
-                //close any open tabs that aren't this one!
-                var i;
-                for (i = 0; i < content.length; i++) {
-                    if (this.getAttribute('index') != i) {
-                        if (content[i].style.maxHeight) {
-                            content[i].style.maxHeight = null;
-                        }
-                    }
+                var buttons = document.getElementsByClassName("collapse");
+                var i = this.getAttribute('index');
+
+                if (i > 3) {//true if botton isn't on nav bar
+                    i -= 3;
+                    //these buttons can only be used if the corrisiponding nav bar button has been
+                    buttons[i].style.maxWidth = content[i].scrollWidth + "px";
+                } else if (i != 0) {//since button zero controls the top tab I didn't need an extra button
+                    buttons[i].style.maxWidth = 0;
                 }
-                if (!content[this.getAttribute('index')].style.maxHeight) {
-                    content[this.getAttribute('index')].style.maxHeight = content[this.getAttribute('index')].scrollHeight + "px";
+                if (content[i].style.maxHeight) {
+                    content[i].style.maxHeight = null;
+                } else if (!content[i].style.maxHeight) {
+                    content[i].style.maxHeight = content[i].scrollHeight + "px";
                 }
             });
         }
         var content = document.getElementsByClassName("content");
-        content[2].style.maxHeight = content[2].scrollHeight + "px";
+        content[1].style.maxHeight = content[1].scrollHeight + "px";
+        content = document.getElementsByClassName("collapse");
+        content[1].style.maxWidth = 0;
 
     </script>
 </body>
