@@ -173,7 +173,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .td-deep-purple,.td-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
 .td-red,.td-hover-red:hover{color:#fff!important;background-color:#f44336!important}
 .td-sand,.td-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
-.td-teal,.td-hover-teal:hover{color:#fff!important;background-color:#009688!important}
+.td-teal,.td-hover-teal:hover{color:#fff!important;background-color:firebrick!important}
 .td-yellow,.td-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
 .td-white,.td-hover-white:hover{color:#000!important;background-color:#fff!important}
 .td-black,.td-hover-black:hover{color:#fff!important;background-color:#000!important}
@@ -203,7 +203,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .td-text-deep-purple,.td-hover-text-deep-purple:hover{color:#673ab7!important}
 .td-text-red,.td-hover-text-red:hover{color:#f44336!important}
 .td-text-sand,.td-hover-text-sand:hover{color:#fdf5e6!important}
-.td-text-teal,.td-hover-text-teal:hover{color:#009688!important}
+.td-text-teal,.td-hover-text-teal:hover{color:firebrick!important}
 .td-text-yellow,.td-hover-text-yellow:hover{color:#d2be0e!important}
 .td-text-white,.td-hover-text-white:hover{color:#fff!important}
 .td-text-black,.td-hover-text-black:hover{color:#000!important}
@@ -229,7 +229,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .td-border-deep-purple,.td-hover-border-deep-purple:hover{border-color:#673ab7!important}
 .td-border-red,.td-hover-border-red:hover{border-color:#f44336!important}
 .td-border-sand,.td-hover-border-sand:hover{border-color:#fdf5e6!important}
-.td-border-teal,.td-hover-border-teal:hover{border-color:#009688!important}
+.td-border-teal,.td-hover-border-teal:hover{border-color:firebrick!important}
 .td-border-yellow,.td-hover-border-yellow:hover{border-color:#ffeb3b!important}
 .td-border-white,.td-hover-border-white:hover{border-color:#fff!important}
 .td-border-black,.td-hover-border-black:hover{border-color:#000!important}
