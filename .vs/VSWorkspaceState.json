@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\static",
-    "\\static\\css",
-    "\\static\\Vid"
+    "\\static\\css"
   ],
-  "SelectedNode": "\\static\\Vid\\dnd_board.mp4",
+  "SelectedNode": "\\static\\css\\old.css",
   "PreviewInSolutionExplorer": false
 }
