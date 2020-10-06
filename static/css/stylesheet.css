@@ -151,6 +151,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .td-padding-64{padding-top:64px!important;padding-bottom:64px!important}
 .td-left{float:left!important}.td-right{float:right!important}
 .td-button:hover{color:#000!important;background-color:#ccc!important}
+.td-mybutton{border:none;}
 .td-transparent,.td-hover-none:hover{background-color:transparent!important}
 .td-hover-none:hover{box-shadow:none!important}
 /* Colors */
