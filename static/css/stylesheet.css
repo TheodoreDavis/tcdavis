@@ -113,6 +113,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .collapse {overflow:hidden;transition:max-width 0.4s ease-out;}
 .collapsible{width:90%;height:90%;margin-top:1.5%;margin-left:5%}
 .content{max-height:0;overflow:hidden;transition:max-height 0.4s ease-out;clear:both;}
+.proj-content{max-height:0;overflow:hidden;transition:max-height;clear:both;}
+
 /*end intereactive tabs*/
 .td-container,.td-panel{padding:0.01em 16px}.td-panel{margin-top:16px;margin-bottom:16px}
 .td-code,.td-codespan{font-family:Consolas,"courier new";font-size:16px}
